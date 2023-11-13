@@ -36,6 +36,42 @@ p {
   text-align: center;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center !important;
+  }
+
+  p {
+    text-align: center !important;
+    margin-bottom: 50px;
+  }
+
+  .content-navigation-links {
+    display: block !important;
+    text-align: center !important;
+    margin: 0 20px 20px !important;
+  }
+
+  .contact-link {
+    max-width: 100% !important;
+  }
+
+  .contact-link a {
+    max-width: 100% !important;
+  }
+
+  .content-navigation-links a {
+    max-width: 100% !important;
+    display: block;
+  }
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
